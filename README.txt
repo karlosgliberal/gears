@@ -41,3 +41,4 @@ TODO
 - Remove or improve the relationship with the plug jquery and init.js
 - Support BBDD
 - Drupal6
+- Drupal 7
