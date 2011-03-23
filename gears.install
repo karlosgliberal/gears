@@ -1,0 +1,41 @@
+<?php
+
+
+/**
+ * @file
+ * The install file.
+ *
+ * Contains install and update functions for Gears
+ */
+
+function gears_install() {
+  drupal_install_schema('gears');
+}
+
+function gears_uninstall() {
+  drupal_uninstall_schema('gears');
+}
+
+
+function gears_schema() {
+  $schema['gears_manifest'] = array(
+    'description' => t('Descripcion de la tabla'),
+    'fields' => array(
+      'manifest' => array(
+        'type' => 'varchar',
+        'length' => '255',
+        'not null' => TRUE,
+        'description' => t('Manifest name'),
+      ),
+      'hash' => array(
+        'type' => 'varchar',
+        'length' => '255',
+        'not null' => TRUE,
+        'description' => t('Hash, para comprobar si el nodo ha sido cambiado...'),
+      ),
+    ),
+    'unique key' => array('manifest' => array('manifest')),
+  );
+  return $schema;
+}
+

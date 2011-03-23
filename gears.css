@@ -1,0 +1,14 @@
+#gearsinfo {
+background-color:#ddd;
+background-image:url(images/cargador.png);
+width:0%;
+}
+#gearsinfo em {
+font-size:90%;
+padding:0 5px 0 5px;
+}
+#gears-info li{
+background-color: #900;
+color: #090;
+}
+
