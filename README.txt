@@ -2,8 +2,6 @@ Gears ManagedResourceStore/jQuery.ManagedResourceStore
 Copyright (c) 2008 Karlos g liberal Investic / Beatriz ausucua & investic people
 karlos(at)investic(dot)net | http://www.investic.net
 
-Test en el doc
-Nuevo test en el doc
 
 Gears is an open source project that enables more powerful web applications, by adding new features to web browsers.
 This gears.modulo integrates with drupal part of the functionalities of google gears
@@ -46,3 +44,4 @@ TODO
 - Drupal6
 - Drupal 7
 - Endidades
+- Esto se sale
